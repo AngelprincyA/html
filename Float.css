@@ -1,0 +1,11 @@
+body{
+    background-color: palegreen;
+}
+
+p{
+
+}
+img{
+    float: none;/*default*/
+    float:right;
+}

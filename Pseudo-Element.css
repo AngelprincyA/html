@@ -1,0 +1,42 @@
+/* 1.First-Letter; */
+p::first-letter{
+    color:red;
+    font-weight: 900;
+    text-decoration:underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* 2.First-Line */
+p::first-line{
+    color: blueviolet;
+    background-color: brown;
+    text-transform: uppercase;
+}
+
+/* 3.Before.
+1.Content is Mandatory here. 
+2.Give inside double quotes.
+3.Image cannot be reduced.*/
+
+p::before{
+    content: "ANGEL";
+    /* content: url("https://cdn.pixabay.com/photo/2023/12/17/09/47/door-8453898_640.jpg" ); */
+
+}
+
+/* 4.After. */
+p::after{
+    content: "veniam!";
+    color: brown;
+}
+
+/* 5.Marker
+It give Color to bullets */
+ul li::marker{
+    color: rosybrown;
+}
+/* 6.selection 
+While User selecting default bg-color is blue and content color is white*/
+p::selection{
+    color: lawngreen;
+    background-color: brown;
+}

@@ -1,0 +1,36 @@
+h1{
+    /* 1.RGB */
+    /* color: rgb(red, green, blue); */
+    /* red color */
+    /* color: rgb(255, 0, 0); */
+    /* mixing of colors */
+    /* color:rgb(93, 226, 199) ; */
+
+    /* 2.RGBA-Alpha-Default value 1-0(Increases Transparency )*/
+    /* color: rgba(255, 0, 0, 0.2);
+
+    3.HSL (Hue -0-360 degree---red-0,green-120,240-blue
+    Saturation-upto 100%,0-grey color
+     Lightness-upto 100%)*/
+    /* color: hsl(240, 0%, 80%); */
+
+    /* 4.HSLA */
+    /* color: hsla(0, 80%,40%, 0.6); */
+
+    /* 5.Hexadecimal.
+    
+    *.Starts with #
+    *.It should be 3 or 4 or 6 numbered values.*/
+    /* color: #000;/*black*/
+    /*color: #fff;
+    color: #ffffff;
+    color: #f00; */
+    color:#ff0000;
+    color: #dc76;
+    
+    
+
+
+
+
+}

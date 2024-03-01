@@ -1,0 +1,15 @@
+    p::first-letter{
+        color: blue;
+        background-color: blueviolet;
+    }
+    p::after{
+        content: "3ueiwjeqijiqwjde";
+        background-color: aquamarine;
+    }
+    li::marker{
+        color: brown;
+    }
+    P::selection{
+        background-color: aqua;
+        color: brown;
+    }

@@ -1,0 +1,31 @@
+img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 0px;
+
+
+
+}
+nav{
+   display: flex; 
+   align-items: start;
+   flex-direction: row;
+   justify-content: space-between;
+   top: 50px; 
+   position: relative;
+}
+
+
+
+
+
+/* .myn{
+    top: 50px; 
+    position: relative;
+} */
+/* .fa-solid fa-user{
+    top: 50px; 
+    position: relative;
+} */
+

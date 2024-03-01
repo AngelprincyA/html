@@ -1,0 +1,15 @@
+div:first-child{
+    background-color: blue;
+    font-weight: bolder;
+    float: left;
+}
+div:nth-child(2){
+    background-color: rgb(106, 255, 0);
+    font-weight: bolder;
+    float:right;
+}
+div:last-child{
+    background-color: brown;
+    font-weight: bolder;
+    float: none;
+}

@@ -1,0 +1,28 @@
+/*  combinator selctor.*/
+/* descendent selector*/
+/* div p{
+    color: blue;
+    background-color: brown;
+} */
+
+/* child selector*/
+ div>p{
+    color:red;
+    background-color:greenyellow;
+} 
+
+/* Adjacent Selector*/
+/* 1.immediately present to the parent 
+2.it will select only one  */
+  /* section+p{
+    color: blueviolet;
+    font: 600; 
+     
+} */
+/* Adjacent Selector*/
+  /* section~p{
+    color: blueviolet;
+    font: 600;
+     
+}  */
+

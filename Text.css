@@ -1,0 +1,34 @@
+h1{
+    /* 1.Text Align */
+    text-align: center;
+    /* text-align: right; */
+    /* text-decoration: overline; */
+    /* text shadow -x y blur color */
+    text-shadow:3px 2px 4px cyan ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+
+}
+p{
+    /* 1.to give equal space at right and left side */
+    text-align: justify;
+    /*2. to delete or strike the content */
+    /* text-decoration: line-through; */
+    /* 3.to give underline on the content:  */
+    /* text-decoration:underline ; */
+    /* 4.text transfrom to ucase,lcase,capital */
+    /* text-transform: lowercase; */
+    text-indent: 40px;
+    text-shadow:4px 3px 2px deeppink ;
+    /* letter-spacing: 4px;
+    word-spacing: 4px;
+    line-height: 6px; */
+    /*text-wrap: nowrap;text comes in a single line
+    border: 8px solid violet;/* here solid word is important.*/ 
+    width: 700px;
+    /* overflow:hidden; */
+    
+        
+
+
+}

@@ -1,0 +1,62 @@
+section{
+    height: 600px;
+    width: 600px;
+    border: 3px dotted rgb(28, 27, 27);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:"css css html html"  ;
+   /* grid-template-columns: 1fr 1fr 1fr ;   AUTO AND 1FR BOTH ARE SAME.......*/
+    /* grid-template-columns: 100PX 100PX 100px; */
+    /* grid-template-rows: auto auto auto AUTO AND  1FR WILL NOT WORK HERE ; */
+    /* grid-template-rows: 50px 20px  ; */
+    /* column-gap: 20px; */
+    /* row-gap: 20px; */
+    gap:20px;
+    /* justify-content:space-around ;
+    width: 200px ; */
+    /* grid-template-areas: ; */
+    
+    
+}
+.div{
+    padding: 4px;
+
+}
+.box-1{
+    background-color: aqua;
+    grid-area:css  ;
+    position: relative;
+    z-index: 2;
+    
+    
+}
+.box-2{
+    background-color: aquamarine;
+}
+.box-3{
+    background-color: rgb(85, 0, 255);
+    grid-row-end: 3;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.box-4{
+    background-color: rgb(255, 98, 0);
+    grid-area:css  ;
+    position: relative;
+    z-index: 3;
+    grid-area: html;
+   
+}
+.box-5{
+    background-color: rgb(166, 0, 255);
+}
+.box-6{
+    background-color: rgb(255, 0, 255);
+}
+.box-7{
+    background-color: rgb(255, 0, 149);
+}
+.box-8{
+    background-color:teal;
+}

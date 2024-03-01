@@ -1,0 +1,22 @@
+span{
+    height: 100px;
+   
+    background-color: bisque;
+    display: block; 
+
+}
+h2{
+    color: blueviolet;
+}
+h1{
+background-color: aqua;
+display: inline;
+
+
+}
+DIV{
+    display:inline-block ;
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+}

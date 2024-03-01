@@ -1,0 +1,50 @@
+/*1.anchor-pseudo
+1.link-default blue
+2.active-red
+3.visited-purple*/
+/* a:link{
+    color: brown;
+
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: palevioletred;
+} */
+
+/* 2.Hover */
+div:hover{
+    color:#000;
+    background-color: springgreen;
+    width: 100px;
+    height: 100px;
+}
+
+/* 3.Focus */
+/* input:focus{
+    color: aqua;
+    background-color: crimson;
+} */
+
+/* 4.1st-child */
+/* li:first-child{
+    color: fuchsia;
+    
+} */
+/* 5.last-child */
+/* li:last-child{
+    color: red;
+} */
+/* 6.nth child */
+/* li:nth-child(5){
+    color:orangered;
+} */
+/* 7.Only-Child */
+div :only-child{
+    color:red ;
+    font-weight: 400;
+}
+
+
+

@@ -1,0 +1,16 @@
+/* table{
+    border: 8px #000 solid;
+
+}
+td{
+    border: 8px #000 solid;
+}
+th{
+    border: 8px #000 solid;
+} */
+table,th,td{
+    border: 8px #000 solid;
+    padding: 20px;
+    border-collapse:collapse ;
+    border-spacing: 20px;
+}

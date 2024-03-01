@@ -1,0 +1,29 @@
+p{
+    /* 1.background-color:rgb(184, 41, 112)  ;*/
+    width: 100%;
+    height: 600px;
+   /* background-color: hsl(170,30%, 40%); */
+    /* background-color: #123456; */
+    font-weight: bolder;
+
+    /* 2.BackGround Image */
+    /* background-image: url("https://cdn.pixabay.com/photo/2017/05/18/15/05/chipmunk-2323827_640.jpg"); */
+    /* background-repeat:repeat;default---repeat x or y*/
+    
+      /* background-repeat: no-repeat;  */
+    /* background-position: center;exact center---there are 9 position*/
+      /* background-size:cover;cover full size of the screen  */
+    /*background-attachment: fixed;  
+    background-clip:content-box; */ 
+
+    /* How to give two color to the bg image ----by linear gradient ---there are 8 direction*/
+   /* background-image: linear-gradient(to top left,red,yellow,cyan,teal,crimson); */
+
+   /* background-image: radial-gradient(ellipse,red,yellow,cyan,teal,crimson); */
+
+   
+    
+
+    
+
+}

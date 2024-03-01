@@ -1,0 +1,40 @@
+/* #test{
+     border for the contents 
+   width: 400px;
+   height: 400px;
+   color: blue;
+   background-color: brown;
+}*/ 
+.demo{
+    /* border: 40px;
+    background-color: palevioletred; */
+    width: 400px;
+    height: 400px;
+    /*border-width: 20px;without border-style it can't work*/
+    /* border-color: blueviolet;without border-style it can't work
+    border-style:dotted ;mandatory ----we can use alone this
+    border:20px dashed green;in a single line */
+
+    /*different size and color of borders*/
+    /* width: 400px;
+    height: 400px;
+    border-top-width:20px ;
+    border-top-style: dotted;
+    border-top-color: orangered; */
+
+    /* border-left-width:20pxpx ;
+    border-left-style:dashed;
+    border-left-color: rgb(72, 0, 255); */
+
+    /* border-bottom-width:20pxpx ;
+    border-bottom-style:dashed;
+    border-bottom-color: rgb(72,  0, 255); */
+
+    /* Curved Border */
+    border: 20px;
+    /* background-color: rgb(215, 26, 130); */
+    border:20px deeppink solid;
+
+    
+
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+h1{
+     font-size: 30px;
+     font-weight: 200;
+     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+     font-family: 'Noto Sans TC', sans-serif;
+     
+     
+     /* font-variant: small-caps; */
+}
+
+p{
+    font-size: 30px;
+    font-weight: 200;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    
+    
+    
+}
